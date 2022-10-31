@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test;
 
 public class PersonTest {
     @Test
-    public void invalidName(){
+    public void invalidName() {
         // given when then
         org.junit.jupiter.api.Assertions.assertThrows(RuntimeException.class, () -> {
             Person person = new Person(null, 15);
@@ -10,7 +10,7 @@ public class PersonTest {
     }
 
     @Test
-    public void invalidAge1(){
+    public void invalidAge1() {
         // given when then
         org.junit.jupiter.api.Assertions.assertThrows(RuntimeException.class, () -> {
             Person person = new Person("Florin", -9);
@@ -18,7 +18,7 @@ public class PersonTest {
     }
 
     @Test
-    public void invalidAge2(){
+    public void invalidAge2() {
         // given when then
         org.junit.jupiter.api.Assertions.assertThrows(RuntimeException.class, () -> {
             Person person = new Person("Florin", 130);

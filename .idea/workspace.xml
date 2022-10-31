@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2755a079-3360-4b62-b350-6964f9a8049e" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersonServiceTDDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PersonTest.java" afterDir="false" />
+    <list default="true" id="2755a079-3360-4b62-b350-6964f9a8049e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonServiceTDDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonServiceTDDTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="af8735868f7da1eaecbf82269b7244f442995e50" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -39,13 +43,15 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PersonServiceTDDTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.All in Won8Course14">
+    <configuration name="All in Won8Course14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Won8Course14" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,42 +65,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonServiceTDDTest.addPersonValue1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonServiceTDDTest.getPersonIdMinus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Won8Course14" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PersonServiceTDDTest" />
-      <option name="METHOD_NAME" value="addPersonValue1" />
+      <option name="METHOD_NAME" value="getPersonIdMinus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonServiceTDDTest.testAddPersonReturnType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonServiceTDDTest.getPersonIdType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Won8Course14" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PersonServiceTDDTest" />
-      <option name="METHOD_NAME" value="testAddPersonReturnType" />
+      <option name="METHOD_NAME" value="getPersonIdType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonServiceTDDTest.getPersonIdValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Won8Course14" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="PersonServiceTDDTest" />
+      <option name="METHOD_NAME" value="getPersonIdValid" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Won8Course14" />
         <item itemvalue="JUnit.PersonServiceTDDTest" />
-        <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="JUnit.PersonServiceTDDTest.addPersonValue1" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.PersonServiceTDDTest.testAddPersonReturnType" />
+        <item itemvalue="JUnit.PersonServiceTDDTest.getPersonIdValid" />
+        <item itemvalue="JUnit.PersonServiceTDDTest.getPersonIdMinus" />
+        <item itemvalue="JUnit.PersonServiceTDDTest.getPersonIdType" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +139,15 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Won8_Course14$All_in_Won8Course14.ic" NAME="All in Won8Course14 Coverage Results" MODIFIED="1667202528036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Won8Course14$All_in_Won8Course14.ic" NAME="All in Won8Course14 Coverage Results" MODIFIED="1667126828862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
